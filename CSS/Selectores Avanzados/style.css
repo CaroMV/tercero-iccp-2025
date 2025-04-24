@@ -1,0 +1,22 @@
+/*Selecionar por etiqueta*/
+h1{
+    color:peru;
+}
+
+.clase{
+    background-color: yellow;
+}
+#id{
+    color: blueviolet;
+}
+/* Comodín*/
+*{
+    border: 1px black solid;
+    /*NORMALIZACION*/
+    /* margin: 0;
+    padding: 0;
+    box-sizing: border-box; */
+}
+body{
+    background-color: rgb(160, 160, 196);
+}

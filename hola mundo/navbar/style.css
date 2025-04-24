@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ /* Estilos generales */
+ body {
+    font-family: 'Impact', sans-serif;
+    color: #fff;
+ }
+ 
+ /* Barra de navegación */
+ .navbar {
+    background-color: #c51162;
+    padding: 15px 40px;
+    /* Flexbox */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ 
+ /* Logo */
+ .logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    text-transform: uppercase;
+    /* Flexbox */
+    display: flex;
+    align-items: center;
+ }
+ 
+ /* Icono logo */
+ .logo i {
+    margin-right: 8px;
+    font-size: 28px;
+    color: #fff;
+ }
+ 
+ /* Navegación */
+ .nav-links {
+    /* Flex */
+    display: flex;
+    gap: 20px;
+ }
+ 
+ .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 12px;
+    border-radius: 5px;
+ }
+ 
+ /* Efecto hover */
+ .nav-links a:hover {
+    background-color: #fff;
+    color: #c51162;
+ }
+
+
+ .container {
+    /* Flexbox */
+    display: flex;
+    /* Espacio entre columnas */
+    gap: 10px;
+ }
+ 
+ /* Estilos generales para columnas */
+ .column {
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 18px;
+ }
+ 
+ /* Distribución flexible */
+ .coll-1 {
+    background-color: #3498db;
+    /* Ocupa una parte del espacio disponible */
+    flex: 2;
+ }
+ 
+ .coll-2 {
+    background-color: #e74c3c;
+    /* Ocupa el doble del espacio de la primera */
+    flex: 3;
+ }
+ 
+ .coll-3 {
+    background-color: #2ecc71;
+    /* Ocupa el mismo espacio que la primera */
+    flex: 1;
+ }
+
+ /* Estilos generales */
+body {
+}
+
+/* Contenedor de filas */
+.row {
+}
+
+/* Estilos generales para columnas */
+.col {
+}
+
+/* Ajuste de tamaños específicos */
+.col-2 {
+}
+
+.col-3 {
+}
