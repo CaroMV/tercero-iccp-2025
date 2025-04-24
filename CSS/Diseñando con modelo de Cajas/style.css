@@ -1,0 +1,53 @@
+.modelo{
+    background-color: blueviolet;
+    /*Propiedades del modelo de caja*/
+    
+    /*Altura*/
+    height: 100px;
+    /*Ancho*/
+    width: 100px;
+    
+    /*Padding: la distancia que hay entre el borde de un elemento y el contenido*/
+    padding: 30px ;
+
+    /*Borde: la linea que envuelve el elemento HTML*/
+    border: 10px solid black;
+    /*Margin: El margen es la distancia que hay entre el elemento y "el mundo"*/
+    margin: 50px;
+}
+
+/* Resolver con display inline-block */
+section > div {
+    /* display: inline-block; */
+    color: aliceblue;
+    height: 200px;
+    width: 300px;
+    background-color: antiquewhite;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1, p{
+    text-align: center;
+}
+.caja-azul{
+    background-color: blue;
+}
+.caja-roja{
+    background-color: red;
+}
+.caja-verde{
+    background-color: green;
+}
+
+section{
+    display: flex;
+    margin: 0 auto;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

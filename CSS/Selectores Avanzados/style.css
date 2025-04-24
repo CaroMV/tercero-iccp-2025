@@ -11,12 +11,57 @@ h1{
 }
 /* Comodín*/
 *{
-    border: 1px black solid;
+    
     /*NORMALIZACION*/
     /* margin: 0;
     padding: 0;
     box-sizing: border-box; */
 }
-body{
-    background-color: rgb(160, 160, 196);
+div{
+    border: 1px solid black;
+    padding: 10px;
+}
+.caja{
+    background-color: crimson;
+}
+
+.caja .ejemplo1{
+    background-color: chocolate;
+}
+
+/* Secciones*/
+section{
+    border: 1px solid black;
+    padding: 10px;
+
+}
+.padre{
+    background-color: chartreuse;
+}
+.hijo1{
+    background-color: cornflowerblue;
+}
+.hijo2{
+    background-color: red;
+}
+.nieto{
+    background-color: yellow;
+}
+
+.padre > div{
+    background-color: darkorange;
+}
+
+input[type="text"]{
+    border: 3px solid blue;
+    border-radius: 5px;
+    background-color: aquamarine;
+}
+input[type="submit"]{
+    color: aliceblue;
+    width: 100px;
+    height: 30px;
+    background-color: darkmagenta;
+    border: none;
+    border-radius: 5px;
 }
